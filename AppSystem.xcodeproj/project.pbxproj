@@ -26,6 +26,9 @@
 		6754375D17E1CC68000AA732 /* FirstViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6754375B17E1CC68000AA732 /* FirstViewController_iPad.xib */; };
 		6754376017E1CC68000AA732 /* SecondViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6754375E17E1CC68000AA732 /* SecondViewController_iPhone.xib */; };
 		6754376317E1CC68000AA732 /* SecondViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6754376117E1CC68000AA732 /* SecondViewController_iPad.xib */; };
+		6754376A17E1D218000AA732 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6754376917E1D218000AA732 /* Default.png */; };
+		6754376C17E1D9A9000AA732 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6754376B17E1D9A9000AA732 /* Icon.png */; };
+		6754376E17E1D9B2000AA732 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6754376D17E1D9B2000AA732 /* Icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +57,9 @@
 		6754375C17E1CC68000AA732 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController_iPad.xib; sourceTree = "<group>"; };
 		6754375F17E1CC68000AA732 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController_iPhone.xib; sourceTree = "<group>"; };
 		6754376217E1CC68000AA732 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController_iPad.xib; sourceTree = "<group>"; };
+		6754376917E1D218000AA732 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		6754376B17E1D9A9000AA732 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		6754376D17E1D9B2000AA732 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +79,9 @@
 		6754372617E1CC68000AA732 = {
 			isa = PBXGroup;
 			children = (
+				6754376D17E1D9B2000AA732 /* Icon@2x.png */,
+				6754376B17E1D9A9000AA732 /* Icon.png */,
+				6754376917E1D218000AA732 /* Default.png */,
 				6754373817E1CC68000AA732 /* AppSystem */,
 				6754373117E1CC68000AA732 /* Frameworks */,
 				6754373017E1CC68000AA732 /* Products */,
@@ -196,6 +205,9 @@
 				6754375D17E1CC68000AA732 /* FirstViewController_iPad.xib in Resources */,
 				6754376017E1CC68000AA732 /* SecondViewController_iPhone.xib in Resources */,
 				6754376317E1CC68000AA732 /* SecondViewController_iPad.xib in Resources */,
+				6754376A17E1D218000AA732 /* Default.png in Resources */,
+				6754376C17E1D9A9000AA732 /* Icon.png in Resources */,
+				6754376E17E1D9B2000AA732 /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +336,7 @@
 				GCC_PREFIX_HEADER = "AppSystem/AppSystem-Prefix.pch";
 				INFOPLIST_FILE = "AppSystem/AppSystem-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -335,6 +348,7 @@
 				GCC_PREFIX_HEADER = "AppSystem/AppSystem-Prefix.pch";
 				INFOPLIST_FILE = "AppSystem/AppSystem-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
